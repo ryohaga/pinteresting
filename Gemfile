@@ -13,11 +13,11 @@ gem 'bootstrap-sass'
 
 group :development, :test do
 	gem 'sqlite3'
-	gem 'rails_12factor' # Need this to put it onto heroku
 end
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor' # Need this to put it onto heroku
 end
 
 group :doc do
