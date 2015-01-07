@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0'          
 gem 'bootstrap-sass'
+gem 'devise', '~> 3.4.1' # ~> can accept upgraded version
 
 group :development, :test do
 	gem 'sqlite3'
